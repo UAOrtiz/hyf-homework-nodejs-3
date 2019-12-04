@@ -1,5 +1,6 @@
 const express = require('express');
 app = express();
+
 let users = [];
 
 app.get('/', (req, res) => {
