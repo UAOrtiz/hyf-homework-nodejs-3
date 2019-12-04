@@ -10,7 +10,7 @@ app.get('/users', (req, res) => {
   res.json(users);
 });
 
-app.post('/users', function(req, res) {
+app.post('/user', function(req, res) {
   users = [{
     id: 0
   }];
